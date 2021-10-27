@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;0,700;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #DBE9EE;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #2E5266;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2E5266;
+}
+
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  color: #2E5266;
+}
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  color: #612940;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9D6381;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 32px;
+  color: #E2C044;
+}
+
+.list-inline > li > a:hover {
+  color: #ECD583;
+}
+
+.card-white {
+    background-color: white;
+    width: 500px;
+    margin: 24px auto;
+    padding: 24px;
+    box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.img-circle {
+  border-radius: 100px;
+}
+
+.btn-purple {
+    background-color: #612940;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#card-code {
+  background-image: url(images/matrix_transparent.png);
+  text-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+}
+
+#card-cook {
+  background-image: url(images/kitchen.jpg);
+  text-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+}
+
+#card-mtn {
+  background-image: url(images/mountains_transparent.png);
+  text-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+}
