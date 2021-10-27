@@ -55,6 +55,7 @@ a {
 
 a:hover {
   color: #9D6381;
+  text-decoration: underline;
 }
 
 .list-inline {
@@ -70,16 +71,17 @@ a:hover {
 
 .list-inline > li > a:hover {
   color: #ECD583;
+  text-decoration: underline;
 }
 
 .card-white {
-    background-color: white;
-    width: 500px;
-    margin: 24px auto;
-    padding: 24px;
-    box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
-    text-align: center;
-    border-radius: 8px;
+  background-color: white;
+  width: 500px;
+  margin: 24px auto;
+  padding: 24px;
+  box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
+  text-align: center;
+  border-radius: 8px;
 }
 
 .img-circle {
@@ -87,12 +89,12 @@ a:hover {
 }
 
 .btn-purple {
-    background-color: #612940;
-    color: #FFFFFF;
-    padding: 12px;
-    border-radius: 8px;
-    display: inline-block;
-    margin: 5px;
+  background-color: #612940;
+  color: #FFFFFF;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 5px;
 }
 
 #card-code {
@@ -111,4 +113,57 @@ a:hover {
   background-image: url(images/mountains_transparent.png);
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
   font-weight: bold;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
