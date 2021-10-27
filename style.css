@@ -98,14 +98,17 @@ a:hover {
 #card-code {
   background-image: url(images/matrix_transparent.png);
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+  font-weight: bold;
 }
 
 #card-cook {
   background-image: url(images/kitchen.jpg);
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+  font-weight: bold;
 }
 
 #card-mtn {
   background-image: url(images/mountains_transparent.png);
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+  font-weight: bold;
 }
